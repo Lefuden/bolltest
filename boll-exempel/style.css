@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;  
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    overflow: hidden;
+    height: inherit;
+}
+
+h1 {
+    font-size: 2rem;
+    position: absolute;
+    margin: 0;
+    top: -4px;
+    right: 5px;
+
+    color: transparent;
+    text-shadow: 0 0 4px white;
+}
+
+.settings {
+    position: absolute;
+    top: 10px;
+    margin: 0;
+}
+
+i {
+    font-size: 3rem !important;
+    color: white;
+    margin: 0;
+    padding: 0 1rem;
+}
+
+i:hover:not(.disabled), h1:hover {
+    color: tomato;
+}
+
+.disabled {
+    color: #333;
+}
+ 
